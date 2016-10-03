@@ -1,0 +1,6 @@
+/node_modules
+/vendor
+/db
+/.idea
+/_ide_helper.php
+composer.phar
