@@ -61,6 +61,7 @@ class Commission {
      * @param $operationType
      * @param $customer
      * @param $operationAmount
+     * @param $currency
      * @return float|string
      */
     static function getCommissionFee($operationType, $customer, $operationAmount, $currency)

@@ -1,6 +1,4 @@
-<?php
-
-namespace spec\App;
+<?php namespace spec\App;
 
 use App\Commission;
 use PhpSpec\ObjectBehavior;
@@ -21,7 +19,7 @@ class CommissionSpec extends ObjectBehavior
 
     function it_should_limit_max_commission()
     {
-        $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldBeLike( 5);
+        $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldBeLike(5);
     }
 
 }

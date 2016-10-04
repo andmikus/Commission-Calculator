@@ -1,6 +1,7 @@
 <?php namespace App;
 
 use Exception;
+use InvalidArgumentException;
 
 /**
  * Class Data
@@ -9,7 +10,6 @@ use Exception;
  * @package App
  */
 class Data {
-
 
     private $input;
     public $dataSource;
@@ -42,15 +42,43 @@ class Data {
      */
     public function dataMatrix()
     {
-        echo $this->getInput();
         $result = array();
         foreach (explode("\n", $this->getInput()) as $row) {
 
             $dataRow = array_combine(array_keys(config('data_matrix')), explode(config('data_separator'), $row));
-            $result[] = $dataRow;
+            try {
+                $dataRow = $this->checkDataType($dataRow, config('data_matrix'));
+                $result[] = $dataRow;
+//                echo implode(config('data_separator'), $dataRow) . "\n";
+            } catch (InvalidArgumentException $e) {
+//                echo $e->getMessage() . "\n";
+            }
         }
 
         return $result;
+    }
+
+    /**
+     * Check data values types
+     *
+     * @param $dataRow
+     * @param $dataTypes
+     * @return array|boolean
+     */
+    private function checkDataType($dataRow, $dataTypes)
+    {
+        foreach ($dataRow as $key => $value) {
+            $type = $dataTypes[$key];
+            $newValue = $value;
+            settype($newValue, $type);
+            if ((string) $value != (string) $newValue) {
+                throw new InvalidArgumentException(sprintf('Given value: %s is not of type \'%s\'.', $value, $type));
+                //return FALSE;
+            }
+            $dataRow[$key] = $newValue;
+        }
+
+        return $dataRow;
     }
 
 }

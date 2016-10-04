@@ -15428,4 +15428,3401 @@ float(0)
 2016-01-10,1,natural,cash_out,100.00,EUR
 2016-01-10,2,juridical,cash_in,1000000.00,EUR
 2016-01-10,3,natural,cash_out,1000.00,EUR
-2016-02-15,1,natural,cash_out,300.00,EUR\n0.06\n0.9\n0\n0.7\n0.3\n0.3\n5\n0\n0]0;vagrant@homestead: ~/Code/Paysera-
+2016-02-15,1,natural,cash_out,300.00,EUR\n0.06\n0.9\n0\n0.7\n0.3\n0.3\n5\n0\n0]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.9
+0
+0.7
+0.3
+0.3
+5
+0
+0]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+PHP Warning:  require(/home/vagrant/Code/Paysera-test): failed to open stream: Success in /home/vagrant/Code/Paysera-test/vendor/composer/autoload_real.php on line 66
+
+Warning: require(/home/vagrant/Code/Paysera-test): failed to open stream: Success in /home/vagrant/Code/Paysera-test/vendor/composer/autoload_real.php on line 66
+PHP Fatal error:  require(): Failed opening required '/home/vagrant/Code/Paysera-test/vendor/composer/../..' (include_path='.:/usr/share/php:') in /home/vagrant/Code/Paysera-test/vendor/composer/autoload_real.php on line 66
+
+Fatal error: require(): Failed opening required '/home/vagrant/Code/Paysera-test/vendor/composer/../..' (include_path='.:/usr/share/php:') in /home/vagrant/Code/Paysera-test/vendor/composer/autoload_real.php on line 66
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ composer dumpautoload
+[32mGenerating autoload files[39m
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ composer dumpautoloadphp script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv[3Pcomposer dumpautoload
+[32mGenerating autoload files[39m
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ composer dumpautoloadphp script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ gulp
+[[90m22:36:51[39m] Using gulpfile [35m~/Code/Paysera-test/gulpfile.js[39m
+[[90m22:36:51[39m] Starting '[36mtest[39m'...
+[[90m22:36:51[39m] Finished '[36mtest[39m' after [35m23 ms[39m
+[[90m22:36:51[39m] Starting '[36mwatch[39m'...
+[[90m22:36:51[39m] Finished '[36mwatch[39m' after [35m117 ms[39m
+[[90m22:36:51[39m] Starting '[36mdefault[39m'...
+[[90m22:36:51[39m] Finished '[36mdefault[39m' after [35m12 μs[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:36:55[39m] [30;42;1m [39;49;22m                                                            1[37;41;1mApp/Commission                                              [39;49;22m  
+[40m  16[49m  [31m- it should limit min commission[39m
+      [31mexpected [39m[33m[double:0.5][39m[31m, but got [39m[33m"0.5"[39m[31m.
+      
+      [39m[40m  16[49m[31m [39m[37m    function it_should_limit_min_commission()[39m[31m
+      [39m[40m  17[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  18         $this->limitMinAmount('cash_out', 'juridical', 0.3, 'EUR')->shouldReturn(0.5);[39;49;22m[31m
+      [39m[40m  19[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  20[49m[31m [39m[31m
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[double:0..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_min_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m [39;49;22m[37;41;1m [39;49;22m                                                           2[37;41;1mApp/Commission                                              [39;49;22m  
+[40m  21[49m  [31m- it should limit max commission[39m
+      [31mexpected [39m[33m[integer:5][39m[31m, but got [39m[33m"5"[39m[31m.
+      
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      [39m[40m  22[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  23         $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldReturn(5);[39;49;22m[31m
+      [39m[40m  24[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  25[49m[31m [39m[31m
+      [39m[40m  26[49m[31m [39m[37m}[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[integer:..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_max_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m                  66%                   [39;49;22m[37;41;1m        33%         [39;49;22m 6
+2 specs
+6 examples ([32m4 passed[39m, [31m2 failed[39m)
+1120ms
+[[90m22:36:55[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:41:03[39m] Starting '[36mtest[39m'...
+[[90m22:41:03[39m] Finished '[36mtest[39m' after [35m13 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:41:06[39m] [30;42;1m [39;49;22m                                                            1[37;41;1mApp/Commission                                              [39;49;22m  
+[40m  16[49m  [31m- it should limit min commission[39m
+      [31mexpected [39m[33m[double:0.5][39m[31m, but got [39m[33m"0.5"[39m[31m.
+      
+      [39m[40m  16[49m[31m [39m[37m    function it_should_limit_min_commission()[39m[31m
+      [39m[40m  17[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  18         $this->limitMinAmount('cash_out', 'juridical', 0.3, 'EUR')->shouldReturn(0.5);[39;49;22m[31m
+      [39m[40m  19[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  20[49m[31m [39m[31m
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[double:0..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_min_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[37;41;1mApp/Commission                                              [39;49;22m
+[40m  21[49m  [31m- it should limit max commission[39m
+      [31mexpected [39m[33m[integer:5][39m[31m, but got [39m[33m"5"[39m[31m.
+      
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      [39m[40m  22[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  23         $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldBe(5);[39;49;22m[31m
+      [39m[40m  24[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  25[49m[31m [39m[31m
+      [39m[40m  26[49m[31m [39m[37m}[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[integer:..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_max_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m [39;49;22m[37;41;1m [39;49;22m                                                           3[30;42;1m                  66%                   [39;49;22m[37;41;1m        33%         [39;49;22m 6
+2 specs
+6 examples ([32m4 passed[39m, [31m2 failed[39m)
+819ms
+[[90m22:41:06[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:41:21[39m] Starting '[36mtest[39m'...
+[[90m22:41:21[39m] Finished '[36mtest[39m' after [35m2.61 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:41:24[39m] [30;42;1m [39;49;22m                                                            1[37;41;1mApp/Commission                                              [39;49;22m  
+[40m  16[49m  [31m- it should limit min commission[39m
+      [31mexpected [39m[33m[double:0.5][39m[31m, but got [39m[33m"0.5"[39m[31m.
+      
+      [39m[40m  16[49m[31m [39m[37m    function it_should_limit_min_commission()[39m[31m
+      [39m[40m  17[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  18         $this->limitMinAmount('cash_out', 'juridical', 0.3, 'EUR')->shouldBe(0.5);[39;49;22m[31m
+      [39m[40m  19[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  20[49m[31m [39m[31m
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[double:0..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_min_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[37;41;1mApp/Commission                                              [39;49;22m
+[40m  21[49m  [31m- it should limit max commission[39m
+      [31mexpected [39m[33m[integer:5][39m[31m, but got [39m[33m"5"[39m[31m.
+      
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      [39m[40m  22[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  23         $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldBe(5);[39;49;22m[31m
+      [39m[40m  24[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  25[49m[31m [39m[31m
+      [39m[40m  26[49m[31m [39m[37m}[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[integer:..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_max_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m [39;49;22m[37;41;1m [39;49;22m                                                           3[30;42;1m                  66%                   [39;49;22m[37;41;1m        33%         [39;49;22m 6
+2 specs
+6 examples ([32m4 passed[39m, [31m2 failed[39m)
+749ms
+[[90m22:41:24[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:41:44[39m] Starting '[36mtest[39m'...
+[[90m22:41:44[39m] Finished '[36mtest[39m' after [35m4.64 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J^[[A
+[[90m22:41:47[39m] [37;45;1mApp/Commission                                              [39;49;22m
+[40m   0[49m  [35m- Loading specification[39m
+      [35mexception [39m[37;1m[err:ParseError("syntax error, unexpected ':', expecting ',' or ')'")][39;22m[35m has been thrown.
+      [39m 0 spec/CommissionSpec.php:18[35m
+         [39m[36mthrow new PhpSpec\Exception\ErrorException[39m([33m"syntax error, unexpected ..."[39m)[35m
+      [39m 1 vendor/symfony/console/Application.php:834[35m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 2 vendor/symfony/console/Application.php:186[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 3 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 4 vendor/phpspec/phpspec/bin/phpspec:26[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[35m
+      [39m 5 vendor/phpspec/phpspec/bin/phpspec:28[35m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[35m
+      [39m
+
+[37;45;1m [39;49;22m                                                            1[30;42;1m      50%      [39;49;22m[37;45;1m      50%      [39;49;22m                               2[30;42;1m                     75%                     [39;49;22m[37;45;1m      25%      [39;49;22m 4
+2 specs
+4 examples ([32m3 passed[39m, [35m1 broken[39m)
+734ms
+[[90m22:41:47[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:42:07[39m] Starting '[36mtest[39m'...
+[[90m22:42:07[39m] Finished '[36mtest[39m' after [35m2.76 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:42:10[39m] [30;42;1m [39;49;22m                                                            1[37;41;1mApp/Commission                                              [39;49;22m  
+[40m  16[49m  [31m- it should limit min commission[39m
+      [31mexpected [39m[33m[double:0.5][39m[31m, but got [39m[33m"0.5"[39m[31m.
+      
+      [39m[40m  16[49m[31m [39m[37m    function it_should_limit_min_commission()[39m[31m
+      [39m[40m  17[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  18         $this->limitMinAmount('cash_out', 'juridical', 0.3, 'EUR')->shouldBe(0.5);[39;49;22m[31m
+      [39m[40m  19[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  20[49m[31m [39m[31m
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[double:0..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_min_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[37;41;1mApp/Commission                                              [39;49;22m
+[40m  21[49m  [31m- it should limit max commission[39m
+      [31mexpected [39m[33m[integer:5][39m[31m, but got [39m[33m"5"[39m[31m.
+      
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      [39m[40m  22[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  23         $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldBe(5);[39;49;22m[31m
+      [39m[40m  24[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  25[49m[31m [39m[31m
+      [39m[40m  26[49m[31m [39m[37m}[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[integer:..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_max_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m        66%         [39;49;22m[37;41;1m   33%    [39;49;22m                               6[30;42;1m                  66%                   [39;49;22m[37;41;1m        33%         [39;49;22m 6
+2 specs
+6 examples ([32m4 passed[39m, [31m2 failed[39m)
+790ms
+[[90m22:42:10[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:44:17[39m] Starting '[36mtest[39m'...
+[[90m22:44:17[39m] Finished '[36mtest[39m' after [35m5.1 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:44:20[39m] [30;42;1m [39;49;22m                                                            1[37;45;1mApp/Commission                                              [39;49;22m  
+[40m  16[49m  [35m- it should limit min commission[39m
+      [35mno [39m[33mbyFlout[39m[35m([39m[33m[array:0][39m[35m) matcher found for [39m[33m"0.5"[39m[35m.
+      
+      [39m[40m  16[49m[35m [39m[37m    function it_should_limit_min_commission()[39m[35m
+      [39m[40m  17[49m[35m [39m[37m    {[39m[35m
+      [39m[30;43;1m  18         $this->limitMinAmount('cash_out', 'juridical', 0.3, 'EUR')->shouldByFlout()-shouldReturn(0.5);[39;49;22m[35m
+      [39m[40m  19[49m[35m [39m[37m    }[39m[35m
+      [39m[40m  20[49m[35m [39m[35m
+      [39m[40m  21[49m[35m [39m[37m    function it_should_limit_max_commission()[39m[35m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Runner/MatcherManager.php:77[35m
+         [39m[36mthrow new PhpSpec\Exception\Wrapper\MatcherNotFoundException[39m([33m"No [39m[33mbyFlout[39m[33m..."[39m)[35m
+      [39m 1 [internal][35m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_min_commission[39m()[35m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[35m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[35m
+      [39m 3 vendor/symfony/console/Application.php:834[35m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 4 vendor/symfony/console/Application.php:186[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[35m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[35m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[35m
+      [39m
+
+[37;41;1mApp/Commission                                              [39;49;22m
+[40m  21[49m  [31m- it should limit max commission[39m
+      [31mexpected [39m[33m[integer:5][39m[31m, but got [39m[33m"5"[39m[31m.
+      
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      [39m[40m  22[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  23         $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldBe(5);[39;49;22m[31m
+      [39m[40m  24[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  25[49m[31m [39m[31m
+      [39m[40m  26[49m[31m [39m[37m}[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[integer:..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_max_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m [39;49;22m[37;41;1m [39;49;22m[37;45;1m [39;49;22m                                                          3[30;42;1m                  66%                   [39;49;22m[37;41;1m   16%    [39;49;22m[37;45;1m   16%    [39;49;22m 6
+2 specs
+6 examples ([32m4 passed[39m, [31m1 failed[39m, [35m1 broken[39m)
+826ms
+[[90m22:44:20[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:44:25[39m] Starting '[36mtest[39m'...
+[[90m22:44:25[39m] Finished '[36mtest[39m' after [35m1.72 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:44:29[39m] [30;42;1m [39;49;22m                                                            1[37;45;1mApp/Commission                                              [39;49;22m  
+[40m  16[49m  [35m- it should limit min commission[39m
+      [35mno [39m[33mbeFlout[39m[35m([39m[33m[array:0][39m[35m) matcher found for [39m[33m"0.5"[39m[35m.
+      
+      [39m[40m  16[49m[35m [39m[37m    function it_should_limit_min_commission()[39m[35m
+      [39m[40m  17[49m[35m [39m[37m    {[39m[35m
+      [39m[30;43;1m  18         $this->limitMinAmount('cash_out', 'juridical', 0.3, 'EUR')->shouldBeFlout()-shouldReturn(0.5);[39;49;22m[35m
+      [39m[40m  19[49m[35m [39m[37m    }[39m[35m
+      [39m[40m  20[49m[35m [39m[35m
+      [39m[40m  21[49m[35m [39m[37m    function it_should_limit_max_commission()[39m[35m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Runner/MatcherManager.php:77[35m
+         [39m[36mthrow new PhpSpec\Exception\Wrapper\MatcherNotFoundException[39m([33m"No [39m[33mbeFlout[39m[33m..."[39m)[35m
+      [39m 1 [internal][35m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_min_commission[39m()[35m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[35m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[35m
+      [39m 3 vendor/symfony/console/Application.php:834[35m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 4 vendor/symfony/console/Application.php:186[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[35m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[35m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[35m
+      [39m
+
+[37;41;1mApp/Commission                                              [39;49;22m
+[40m  21[49m  [31m- it should limit max commission[39m
+      [31mexpected [39m[33m[integer:5][39m[31m, but got [39m[33m"5"[39m[31m.
+      
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      [39m[40m  22[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  23         $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldBe(5);[39;49;22m[31m
+      [39m[40m  24[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  25[49m[31m [39m[31m
+      [39m[40m  26[49m[31m [39m[37m}[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[integer:..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_max_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m [39;49;22m[37;41;1m [39;49;22m[37;45;1m [39;49;22m                                                          3[30;42;1m                  66%                   [39;49;22m[37;41;1m   16%    [39;49;22m[37;45;1m   16%    [39;49;22m 6
+2 specs
+6 examples ([32m4 passed[39m, [31m1 failed[39m, [35m1 broken[39m)
+807ms
+[[90m22:44:29[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:44:33[39m] Starting '[36mtest[39m'...
+[[90m22:44:33[39m] Finished '[36mtest[39m' after [35m2.52 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:44:36[39m] [30;42;1m [39;49;22m                                                            1[37;45;1mApp/Commission                                              [39;49;22m  
+[40m  16[49m  [35m- it should limit min commission[39m
+      [35mno [39m[33mbeFlout[39m[35m([39m[33m[array:0][39m[35m) matcher found for [39m[33m"0.5"[39m[35m.
+      
+      [39m[40m  16[49m[35m [39m[37m    function it_should_limit_min_commission()[39m[35m
+      [39m[40m  17[49m[35m [39m[37m    {[39m[35m
+      [39m[30;43;1m  18         $this->limitMinAmount('cash_out', 'juridical', 0.3, 'EUR')->shouldBeFlout()->shouldReturn(0.5);[39;49;22m[35m
+      [39m[40m  19[49m[35m [39m[37m    }[39m[35m
+      [39m[40m  20[49m[35m [39m[35m
+      [39m[40m  21[49m[35m [39m[37m    function it_should_limit_max_commission()[39m[35m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Runner/MatcherManager.php:77[35m
+         [39m[36mthrow new PhpSpec\Exception\Wrapper\MatcherNotFoundException[39m([33m"No [39m[33mbeFlout[39m[33m..."[39m)[35m
+      [39m 1 [internal][35m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_min_commission[39m()[35m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[35m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[35m
+      [39m 3 vendor/symfony/console/Application.php:834[35m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 4 vendor/symfony/console/Application.php:186[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[35m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[35m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[35m
+      [39m
+
+[37;41;1mApp/Commission                                              [39;49;22m
+[40m  21[49m  [31m- it should limit max commission[39m
+      [31mexpected [39m[33m[integer:5][39m[31m, but got [39m[33m"5"[39m[31m.
+      
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      [39m[40m  22[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  23         $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldBe(5);[39;49;22m[31m
+      [39m[40m  24[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  25[49m[31m [39m[31m
+      [39m[40m  26[49m[31m [39m[37m}[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[integer:..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_max_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m [39;49;22m[37;41;1m [39;49;22m[37;45;1m [39;49;22m                                                          3[30;42;1m                  66%                   [39;49;22m[37;41;1m   16%    [39;49;22m[37;45;1m   16%    [39;49;22m 6
+2 specs
+6 examples ([32m4 passed[39m, [31m1 failed[39m, [35m1 broken[39m)
+874ms
+[[90m22:44:37[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:44:43[39m] Starting '[36mtest[39m'...
+[[90m22:44:43[39m] Finished '[36mtest[39m' after [35m2.29 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:44:47[39m] [30;42;1m [39;49;22m                                                            1[37;45;1mApp/Commission                                              [39;49;22m  
+[40m  16[49m  [35m- it should limit min commission[39m
+      [35mno [39m[33mbeFlt[39m[35m([39m[33m[array:0][39m[35m) matcher found for [39m[33m"0.5"[39m[35m.
+      
+      [39m[40m  16[49m[35m [39m[37m    function it_should_limit_min_commission()[39m[35m
+      [39m[40m  17[49m[35m [39m[37m    {[39m[35m
+      [39m[30;43;1m  18         $this->limitMinAmount('cash_out', 'juridical', 0.3, 'EUR')->shouldBeFlt()->shouldReturn(0.5);[39;49;22m[35m
+      [39m[40m  19[49m[35m [39m[37m    }[39m[35m
+      [39m[40m  20[49m[35m [39m[35m
+      [39m[40m  21[49m[35m [39m[37m    function it_should_limit_max_commission()[39m[35m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Runner/MatcherManager.php:77[35m
+         [39m[36mthrow new PhpSpec\Exception\Wrapper\MatcherNotFoundException[39m([33m"No [39m[33mbeFlt[39m[33m(<..."[39m)[35m
+      [39m 1 [internal][35m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_min_commission[39m()[35m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[35m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[35m
+      [39m 3 vendor/symfony/console/Application.php:834[35m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 4 vendor/symfony/console/Application.php:186[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[35m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[35m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[35m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[35m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[35m
+      [39m
+
+[37;41;1mApp/Commission                                              [39;49;22m
+[40m  21[49m  [31m- it should limit max commission[39m
+      [31mexpected [39m[33m[integer:5][39m[31m, but got [39m[33m"5"[39m[31m.
+      
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      [39m[40m  22[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  23         $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldBe(5);[39;49;22m[31m
+      [39m[40m  24[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  25[49m[31m [39m[31m
+      [39m[40m  26[49m[31m [39m[37m}[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[integer:..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_max_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m [39;49;22m[37;41;1m [39;49;22m[37;45;1m [39;49;22m                                                          3[30;42;1m                  66%                   [39;49;22m[37;41;1m   16%    [39;49;22m[37;45;1m   16%    [39;49;22m 6
+2 specs
+6 examples ([32m4 passed[39m, [31m1 failed[39m, [35m1 broken[39m)
+878ms
+[[90m22:44:47[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:44:59[39m] Starting '[36mtest[39m'...
+[[90m22:44:59[39m] Finished '[36mtest[39m' after [35m2.54 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:45:02[39m] [30;42;1m [39;49;22m                                                            1[37;41;1mApp/Commission                                              [39;49;22m  
+[40m  16[49m  [31m- it should limit min commission[39m
+      [33mis_float([39m[33m"0.5"[39m[33m)[39m[31m expected to return [39m[33mtrue[39m[31m, but it did not.
+      
+      [39m[40m  16[49m[31m [39m[37m    function it_should_limit_min_commission()[39m[31m
+      [39m[40m  17[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  18         $this->limitMinAmount('cash_out', 'juridical', 0.3, 'EUR')->shouldBeFloat()->shouldReturn(0.5);[39;49;22m[31m
+      [39m[40m  19[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  20[49m[31m [39m[31m
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/ScalarMatcher.php:65[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\FailureException[39m([33m"[39m[33mis_float([39m[33m"0..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_min_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[37;41;1mApp/Commission                                              [39;49;22m
+[40m  21[49m  [31m- it should limit max commission[39m
+      [31mexpected [39m[33m[integer:5][39m[31m, but got [39m[33m"5"[39m[31m.
+      
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      [39m[40m  22[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  23         $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldBe(5);[39;49;22m[31m
+      [39m[40m  24[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  25[49m[31m [39m[31m
+      [39m[40m  26[49m[31m [39m[37m}[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[integer:..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_max_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m [39;49;22m[37;41;1m [39;49;22m                                                           3[30;42;1m                  66%                   [39;49;22m[37;41;1m        33%         [39;49;22m 6
+2 specs
+6 examples ([32m4 passed[39m, [31m2 failed[39m)
+825ms
+[[90m22:45:02[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:45:36[39m] Starting '[36mtest[39m'...
+[[90m22:45:36[39m] Finished '[36mtest[39m' after [35m3.53 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J^[[A
+[[90m22:45:39[39m] [30;42;1m [39;49;22m                                                            1[37;41;1mApp/Commission                                              [39;49;22m  
+[40m  16[49m  [31m- it should limit min commission[39m
+      [31mexpected [39m[33m[double:0.5][39m[31m, but got [39m[33m"0.5"[39m[31m.
+      
+      [39m[40m  16[49m[31m [39m[37m    function it_should_limit_min_commission()[39m[31m
+      [39m[40m  17[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  18         $this->limitMinAmount('cash_out', 'juridical', 0.3, 'EUR')->shouldReturn(0.5);[39;49;22m[31m
+      [39m[40m  19[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  20[49m[31m [39m[31m
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[double:0..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_min_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[37;41;1mApp/Commission                                              [39;49;22m
+[40m  21[49m  [31m- it should limit max commission[39m
+      [31mexpected [39m[33m[integer:5][39m[31m, but got [39m[33m"5"[39m[31m.
+      
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      [39m[40m  22[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  23         $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldBe(5);[39;49;22m[31m
+      [39m[40m  24[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  25[49m[31m [39m[31m
+      [39m[40m  26[49m[31m [39m[37m}[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[integer:..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_max_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m        66%         [39;49;22m[37;41;1m   33%    [39;49;22m                               6[30;42;1m                  66%                   [39;49;22m[37;41;1m        33%         [39;49;22m 6
+2 specs
+6 examples ([32m4 passed[39m, [31m2 failed[39m)
+780ms
+[[90m22:45:39[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:46:51[39m] Starting '[36mtest[39m'...
+[[90m22:46:51[39m] Finished '[36mtest[39m' after [35m5.92 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:46:54[39m] [30;42;1m [39;49;22m                                                            1[37;41;1mApp/Commission                                              [39;49;22m  
+[40m  16[49m  [31m- it should limit min commission[39m
+      [31mexpected [39m[33m[double:0.5][39m[31m, but got [39m[33m"0.5"[39m[31m.
+      
+      [39m[40m  16[49m[31m [39m[37m    function it_should_limit_min_commission()[39m[31m
+      [39m[40m  17[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  18         $this->limitMinAmount('cash_out', 'juridical', 0.3, 'EUR')->shouldReturn((float) 0.5);[39;49;22m[31m
+      [39m[40m  19[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  20[49m[31m [39m[31m
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[double:0..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_min_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m [39;49;22m[37;41;1m [39;49;22m                                                           2[37;41;1mApp/Commission                                              [39;49;22m  
+[40m  21[49m  [31m- it should limit max commission[39m
+      [31mexpected [39m[33m[integer:5][39m[31m, but got [39m[33m"5"[39m[31m.
+      
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      [39m[40m  22[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  23         $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldBe((integer) 5);[39;49;22m[31m
+      [39m[40m  24[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  25[49m[31m [39m[31m
+      [39m[40m  26[49m[31m [39m[37m}[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[integer:..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_max_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m                  66%                   [39;49;22m[37;41;1m        33%         [39;49;22m 6
+2 specs
+6 examples ([32m4 passed[39m, [31m2 failed[39m)
+1008ms
+[[90m22:46:54[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:49:02[39m] Starting '[36mtest[39m'...
+[[90m22:49:02[39m] Finished '[36mtest[39m' after [35m4.67 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:49:05[39m] [30;42;1m [39;49;22m                                                            1[37;41;1mApp/Commission                                              [39;49;22m  
+[40m  16[49m  [31m- it should limit min commission[39m
+      [31mexpected [39m[33m[double:0.5][39m[31m, but got [39m[33m"0.5"[39m[31m.
+      
+      [39m[40m  16[49m[31m [39m[37m    function it_should_limit_min_commission()[39m[31m
+      [39m[40m  17[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  18         $this->limitMinAmount('cash_out', 'juridical', 0.3, 'EUR')->shouldReturn((double) 0.5);[39;49;22m[31m
+      [39m[40m  19[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  20[49m[31m [39m[31m
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[double:0..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_min_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[37;41;1mApp/Commission                                              [39;49;22m
+[40m  21[49m  [31m- it should limit max commission[39m
+      [31mexpected [39m[33m[integer:5][39m[31m, but got [39m[33m"5"[39m[31m.
+      
+      [39m[40m  21[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      [39m[40m  22[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  23         $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldReturn((integer) 5);[39;49;22m[31m
+      [39m[40m  24[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  25[49m[31m [39m[31m
+      [39m[40m  26[49m[31m [39m[37m}[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[integer:..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_max_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m      50%      [39;49;22m[37;41;1m      50%      [39;49;22m                               4[30;42;1m                  66%                   [39;49;22m[37;41;1m        33%         [39;49;22m 6
+2 specs
+6 examples ([32m4 passed[39m, [31m2 failed[39m)
+780ms
+[[90m22:49:05[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:50:19[39m] Starting '[36mtest[39m'...
+[[90m22:50:19[39m] Finished '[36mtest[39m' after [35m5.36 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:50:22[39m] [30;42;1m [39;49;22m                                                            1[37;41;1mApp/Commission                                              [39;49;22m  
+[40m  18[49m  [31m- it should limit min commission[39m
+      [31mexpected [39m[33m[double:0.5][39m[31m, but got [39m[33m"0.5"[39m[31m.
+      
+      [39m[40m  18[49m[31m [39m[37m    function it_should_limit_min_commission()[39m[31m
+      [39m[40m  19[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  20         $this->limitMinAmount('cash_out', 'juridical', 0.3, 'EUR')->shouldReturn($this->minLimit);[39;49;22m[31m
+      [39m[40m  21[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  22[49m[31m [39m[31m
+      [39m[40m  23[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[double:0..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_min_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[37;41;1mApp/Commission                                              [39;49;22m
+[40m  23[49m  [31m- it should limit max commission[39m
+      [31mexpected [39m[33m[integer:5][39m[31m, but got [39m[33m"5"[39m[31m.
+      
+      [39m[40m  23[49m[31m [39m[37m    function it_should_limit_max_commission()[39m[31m
+      [39m[40m  24[49m[31m [39m[37m    {[39m[31m
+      [39m[30;43;1m  25         $this->limitMaxAmount('cash_in', 'natural', 10, 'EUR')->shouldReturn((integer) 5);[39;49;22m[31m
+      [39m[40m  26[49m[31m [39m[37m    }[39m[31m
+      [39m[40m  27[49m[31m [39m[31m
+      [39m[40m  28[49m[31m [39m[37m}[39m[31m
+      
+      [39m 0 vendor/phpspec/phpspec/src/PhpSpec/Matcher/IdentityMatcher.php:78[31m
+         [39m[36mthrow new PhpSpec\Exception\Example\NotEqualException[39m([33m"Expected [39m[33m[integer:..."[39m)[31m
+      [39m 1 [internal][31m
+         [39m[36mspec\App\CommissionSpec[39m->[36mit_should_limit_max_commission[39m()[31m
+      [39m 2 vendor/phpspec/phpspec/src/PhpSpec/Runner/ExampleRunner.php:150[31m
+         [39m[36mReflectionMethod[39m->[36minvokeArgs[39m([33m[obj:spec\App\CommissionSpec][39m, [33m[array:0][39m)[31m
+      [39m 3 vendor/symfony/console/Application.php:834[31m
+         [39m[36mSymfony\Component\Console\Command\Command[39m->[36mrun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 4 vendor/symfony/console/Application.php:186[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRunCommand[39m([33m[obj:PhpSpec\Console\Command\RunCommand][39m, [33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 5 vendor/phpspec/phpspec/src/PhpSpec/Console/Application.php:95[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mdoRun[39m([33m[obj:Symfony\Component\Console\Input\ArgvInput][39m, [33m[obj:Symfony\Component\Console\Output\ConsoleOutput][39m)[31m
+      [39m 6 vendor/phpspec/phpspec/bin/phpspec:26[31m
+         [39m[36mSymfony\Component\Console\Application[39m->[36mrun[39m()[31m
+      [39m 7 vendor/phpspec/phpspec/bin/phpspec:28[31m
+         [39m[36m{closure}[39m([33m"3.1.1"[39m)[31m
+      [39m
+
+[30;42;1m       60%        [39;49;22m[37;41;1m    40%     [39;49;22m                               5[30;42;1m                  66%                   [39;49;22m[37;41;1m        33%         [39;49;22m 6
+2 specs
+6 examples ([32m4 passed[39m, [31m2 failed[39m)
+778ms
+[[90m22:50:22[39m] [36mgulp-notify[39m: [[34mCrap[39m] [31mYour tests failed![39m
+[[90m22:54:01[39m] Starting '[36mtest[39m'...
+[[90m22:54:01[39m] Finished '[36mtest[39m' after [35m6.37 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:54:04[39m] [30;42;1m [39;49;22m                                                            1[30;42;1m                            100%                            [39;49;22m 6
+2 specs
+6 examples ([32m6 passed[39m)
+729ms
+[[90m22:54:04[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m22:54:04[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m22:54:06[39m] Starting '[36mtest[39m'...
+[[90m22:54:06[39m] Finished '[36mtest[39m' after [35m2.36 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:54:09[39m] Starting '[36mtest[39m'...
+[[90m22:54:09[39m] Finished '[36mtest[39m' after [35m3.78 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m22:54:10[39m] [30;42;1m [39;49;22m                                                            1[30;42;1m                            100%                            [39;49;22m 6
+2 specs
+6 examples ([32m6 passed[39m)
+1012ms
+[[90m22:54:10[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m22:54:10[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m22:54:12[39m] [30;42;1m [39;49;22m                                                            1[30;42;1m                            100%                            [39;49;22m 6
+2 specs
+6 examples ([32m6 passed[39m)
+725ms
+[[90m22:54:12[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m22:54:12[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m23:01:04[39m] Starting '[36mtest[39m'...
+[[90m23:01:04[39m] Finished '[36mtest[39m' after [35m2.42 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m23:01:07[39m] [30;42;1m [39;49;22m                                                            1[30;42;1m                            100%                            [39;49;22m 6
+2 specs
+6 examples ([32m6 passed[39m)
+910ms
+[[90m23:01:07[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m23:01:07[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m23:03:07[39m] Starting '[36mtest[39m'...
+[[90m23:03:07[39m] Finished '[36mtest[39m' after [35m3.15 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m23:03:10[39m] [30;42;1m [39;49;22m                                                            1[30;42;1m                            100%                            [39;49;22m 6
+2 specs
+6 examples ([32m6 passed[39m)
+936ms
+[[90m23:03:10[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m23:03:10[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m05:38:16[39m] Starting '[36mtest[39m'...
+[[90m05:38:16[39m] Finished '[36mtest[39m' after [35m2.95 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m05:38:21[39m] [30;42;1m [39;49;22m                                                            1[30;42;1m                            100%                            [39;49;22m 6
+2 specs
+6 examples ([32m6 passed[39m)
+1017ms
+[[90m05:38:21[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m05:38:21[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m06:02:35[39m] Starting '[36mtest[39m'...
+[[90m06:02:35[39m] Finished '[36mtest[39m' after [35m3.15 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m06:02:39[39m] [30;42;1m [39;49;22m                                                            1[30;42;1m                            100%                            [39;49;22m 6
+2 specs
+6 examples ([32m6 passed[39m)
+873ms
+[[90m06:02:39[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m06:02:39[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m06:15:18[39m] Starting '[36mtest[39m'...
+[[90m06:15:18[39m] Finished '[36mtest[39m' after [35m2.64 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m06:15:22[39m] [30;42;1m [39;49;22m                                                            1[30;42;1m                            100%                            [39;49;22m 6
+2 specs
+6 examples ([32m6 passed[39m)
+934ms
+[[90m06:15:22[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m06:15:22[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m06:18:19[39m] Starting '[36mtest[39m'...
+[[90m06:18:19[39m] Finished '[36mtest[39m' after [35m2.47 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m06:18:23[39m] [30;42;1m [39;49;22m                                                            1[30;42;1m                            100%                            [39;49;22m 6
+2 specs
+6 examples ([32m6 passed[39m)
+1045ms
+[[90m06:18:23[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m06:18:23[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m06:24:41[39m] Starting '[36mtest[39m'...
+[[90m06:24:41[39m] Finished '[36mtest[39m' after [35m2.68 ms[39m
+$ [34mclear[39m
+[H[2J$ [34mclear[39m
+[H[2J[[90m06:24:45[39m] [30;42;1m [39;49;22m                                                            1[30;42;1m             100%             [39;49;22m                               6[30;42;1m                            100%                            [39;49;22m 6
+2 specs
+6 examples ([32m6 passed[39m)
+821ms
+[[90m06:24:45[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+[[90m06:24:45[39m] [36mgulp-notify[39m: [[34mSuccess[39m] [32mAll tests have returned green![39m
+^C
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ gulpphp script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1010.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.03
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1001.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.01
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1010.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.03
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EURPHP Fatal error:  Uncaught Error: Call to undefined function string() in /home/vagrant/Code/Paysera-test/src/Data.php:50
+Stack trace:
+#0 [internal function]: App\Data->App\{closure}('2016-01-05', 'transaction_dat...', Array)
+#1 /home/vagrant/Code/Paysera-test/src/Data.php(51): array_walk(Array, Object(Closure), Array)
+#2 /home/vagrant/Code/Paysera-test/src/Controller.php(28): App\Data->dataMatrix()
+#3 /home/vagrant/Code/Paysera-test/script.php(20): App\Controller->execute('input.csv')
+#4 {main}
+  thrown in /home/vagrant/Code/Paysera-test/src/Data.php on line 50
+
+Fatal error: Uncaught Error: Call to undefined function string() in /home/vagrant/Code/Paysera-test/src/Data.php:50
+Stack trace:
+#0 [internal function]: App\Data->App\{closure}('2016-01-05', 'transaction_dat...', Array)
+#1 /home/vagrant/Code/Paysera-test/src/Data.php(51): array_walk(Array, Object(Closure), Array)
+#2 /home/vagrant/Code/Paysera-test/src/Controller.php(28): App\Data->dataMatrix()
+#3 /home/vagrant/Code/Paysera-test/script.php(20): App\Controller->execute('input.csv')
+#4 {main}
+  thrown in /home/vagrant/Code/Paysera-test/src/Data.php on line 50
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ [H[2J]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,JJ,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+0.06
+0.50
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,200.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EURstring(9) "is_string"
+string(10) "is_integer"
+string(9) "is_string"
+string(9) "is_string"
+string(8) "is_float"
+string(9) "is_string"
+string(9) "is_string"
+string(10) "is_integer"
+string(9) "is_string"
+string(9) "is_string"
+string(8) "is_float"
+string(9) "is_string"
+string(9) "is_string"
+string(10) "is_integer"
+string(9) "is_string"
+string(9) "is_string"
+string(8) "is_float"
+string(9) "is_string"
+string(9) "is_string"
+string(10) "is_integer"
+string(9) "is_string"
+string(9) "is_string"
+string(8) "is_float"
+string(9) "is_string"
+string(9) "is_string"
+string(10) "is_integer"
+string(9) "is_string"
+string(9) "is_string"
+string(8) "is_float"
+string(9) "is_string"
+string(9) "is_string"
+string(10) "is_integer"
+string(9) "is_string"
+string(9) "is_string"
+string(8) "is_float"
+string(9) "is_string"
+string(9) "is_string"
+string(10) "is_integer"
+string(9) "is_string"
+string(9) "is_string"
+string(8) "is_float"
+string(9) "is_string"
+string(9) "is_string"
+string(10) "is_integer"
+string(9) "is_string"
+string(9) "is_string"
+string(8) "is_float"
+string(9) "is_string"
+string(9) "is_string"
+string(10) "is_integer"
+string(9) "is_string"
+string(9) "is_string"
+string(8) "is_float"
+string(9) "is_string"
+
+0.06
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ cd ../etime
+]0;vagrant@homestead: ~/Code/etimevagrant@homestead:~/Code/etime$ artisan tinker
+[34mPsy Shell v0.7.2 (PHP 7.0.1-1+deb.sury.org~trusty+2 — cli) by Justin Hileman[39m
+>>> is_float()5)5).)3));
+=> [36mtrue[39m
+>>> is_float(55.3););[K);[K);[K);[Kf);f);f);
+[30;43mPHP error:  Use of undefined constant fff - assumed 'fff' on line 1[39;49m
+>>> is_float(fff);');[1@'f[21G
+=> [36mfalse[39m
+>>> quit
+[37;41mExit:  Goodbye.[39;49m
+]0;vagrant@homestead: ~/Code/etimevagrant@homestead:~/Code/etime$ cd ../pa[K[KPaysera-test/
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ cd ../Paysera-test/
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ cd ../Paysera-test/[5Partisan tinker[3Pcd ../etimephp script.php input.csv
+
+2016-01-05,1,natural,cash_in,jj.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EURstring(9) "is_string"
+bool(true)
+string(10) "is_integer"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(10) "is_integer"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(10) "is_integer"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(10) "is_integer"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(10) "is_integer"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(10) "is_integer"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(10) "is_integer"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(10) "is_integer"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(10) "is_integer"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,jj.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EURstring(9) "is_string"
+bool(true)
+string(6) "is_int"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(6) "is_int"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(6) "is_int"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(6) "is_int"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(6) "is_int"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(6) "is_int"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(6) "is_int"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(6) "is_int"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(6) "is_int"
+bool(false)
+string(9) "is_string"
+bool(true)
+string(9) "is_string"
+bool(true)
+string(8) "is_float"
+bool(false)
+string(9) "is_string"
+bool(true)
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,jj.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EURstring(9) "is_string"
+string(10) "2016-01-05"
+bool(true)
+string(6) "is_int"
+string(1) "1"
+bool(false)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(7) "cash_in"
+bool(true)
+string(8) "is_float"
+string(5) "jj.00"
+bool(false)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-06"
+bool(true)
+string(6) "is_int"
+string(1) "2"
+bool(false)
+string(9) "is_string"
+string(9) "juridical"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+string(6) "300.00"
+bool(false)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-06"
+bool(true)
+string(6) "is_int"
+string(1) "1"
+bool(false)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+string(5) "30000"
+bool(false)
+string(9) "is_string"
+string(3) "JPY"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-07"
+bool(true)
+string(6) "is_int"
+string(1) "1"
+bool(false)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+string(7) "1000.00"
+bool(false)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-07"
+bool(true)
+string(6) "is_int"
+string(1) "1"
+bool(false)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+string(6) "100.00"
+bool(false)
+string(9) "is_string"
+string(3) "USD"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-10"
+bool(true)
+string(6) "is_int"
+string(1) "1"
+bool(false)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+string(6) "100.00"
+bool(false)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-10"
+bool(true)
+string(6) "is_int"
+string(1) "2"
+bool(false)
+string(9) "is_string"
+string(9) "juridical"
+bool(true)
+string(9) "is_string"
+string(7) "cash_in"
+bool(true)
+string(8) "is_float"
+string(10) "1000000.00"
+bool(false)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-10"
+bool(true)
+string(6) "is_int"
+string(1) "3"
+bool(false)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+string(7) "1000.00"
+bool(false)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+string(9) "is_string"
+string(10) "2016-02-15"
+bool(true)
+string(6) "is_int"
+string(1) "1"
+bool(false)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+string(6) "300.00"
+bool(false)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE), expecting ',' or ')' in /home/vagrant/Code/Paysera-test/src/Data.php on line 55
+
+Parse error: syntax error, unexpected '$value' (T_VARIABLE), expecting ',' or ')' in /home/vagrant/Code/Paysera-test/src/Data.php on line 55
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,jj.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EURstring(9) "is_string"
+string(10) "2016-01-05"
+bool(true)
+string(6) "is_int"
+int(1)
+bool(true)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(7) "cash_in"
+bool(true)
+string(8) "is_float"
+float(0)
+bool(true)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-06"
+bool(true)
+string(6) "is_int"
+int(2)
+bool(true)
+string(9) "is_string"
+string(9) "juridical"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+float(300)
+bool(true)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-06"
+bool(true)
+string(6) "is_int"
+int(1)
+bool(true)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+float(30000)
+bool(true)
+string(9) "is_string"
+string(3) "JPY"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-07"
+bool(true)
+string(6) "is_int"
+int(1)
+bool(true)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+float(1000)
+bool(true)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-07"
+bool(true)
+string(6) "is_int"
+int(1)
+bool(true)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+float(100)
+bool(true)
+string(9) "is_string"
+string(3) "USD"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-10"
+bool(true)
+string(6) "is_int"
+int(1)
+bool(true)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+float(100)
+bool(true)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-10"
+bool(true)
+string(6) "is_int"
+int(2)
+bool(true)
+string(9) "is_string"
+string(9) "juridical"
+bool(true)
+string(9) "is_string"
+string(7) "cash_in"
+bool(true)
+string(8) "is_float"
+float(1000000)
+bool(true)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+string(9) "is_string"
+string(10) "2016-01-10"
+bool(true)
+string(6) "is_int"
+int(3)
+bool(true)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+float(1000)
+bool(true)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+string(9) "is_string"
+string(10) "2016-02-15"
+bool(true)
+string(6) "is_int"
+int(1)
+bool(true)
+string(9) "is_string"
+string(7) "natural"
+bool(true)
+string(9) "is_string"
+string(8) "cash_out"
+bool(true)
+string(8) "is_float"
+float(300)
+bool(true)
+string(9) "is_string"
+string(3) "EUR"
+bool(true)
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,jj.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EURstring(9) "is_string"
+string(10) "2016-01-05"
+string(6) "string"
+string(10) "is_integer"
+int(1)
+string(7) "integer"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(7) "cash_in"
+string(6) "string"
+string(8) "is_float"
+float(0)
+string(6) "double"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-06"
+string(6) "string"
+string(10) "is_integer"
+int(2)
+string(7) "integer"
+string(9) "is_string"
+string(9) "juridical"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+float(300)
+string(6) "double"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-06"
+string(6) "string"
+string(10) "is_integer"
+int(1)
+string(7) "integer"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+float(30000)
+string(6) "double"
+string(9) "is_string"
+string(3) "JPY"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-07"
+string(6) "string"
+string(10) "is_integer"
+int(1)
+string(7) "integer"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+float(1000)
+string(6) "double"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-07"
+string(6) "string"
+string(10) "is_integer"
+int(1)
+string(7) "integer"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+float(100)
+string(6) "double"
+string(9) "is_string"
+string(3) "USD"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-10"
+string(6) "string"
+string(10) "is_integer"
+int(1)
+string(7) "integer"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+float(100)
+string(6) "double"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-10"
+string(6) "string"
+string(10) "is_integer"
+int(2)
+string(7) "integer"
+string(9) "is_string"
+string(9) "juridical"
+string(6) "string"
+string(9) "is_string"
+string(7) "cash_in"
+string(6) "string"
+string(8) "is_float"
+float(1000000)
+string(6) "double"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-10"
+string(6) "string"
+string(10) "is_integer"
+int(3)
+string(7) "integer"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+float(1000)
+string(6) "double"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-02-15"
+string(6) "string"
+string(10) "is_integer"
+int(1)
+string(7) "integer"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+float(300)
+string(6) "double"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,jj.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EURstring(9) "is_string"
+string(10) "2016-01-05"
+string(6) "string"
+string(10) "is_integer"
+string(1) "1"
+string(6) "string"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(7) "cash_in"
+string(6) "string"
+string(8) "is_float"
+string(5) "jj.00"
+string(6) "string"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-06"
+string(6) "string"
+string(10) "is_integer"
+string(1) "2"
+string(6) "string"
+string(9) "is_string"
+string(9) "juridical"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+string(6) "300.00"
+string(6) "string"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-06"
+string(6) "string"
+string(10) "is_integer"
+string(1) "1"
+string(6) "string"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+string(5) "30000"
+string(6) "string"
+string(9) "is_string"
+string(3) "JPY"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-07"
+string(6) "string"
+string(10) "is_integer"
+string(1) "1"
+string(6) "string"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+string(7) "1000.00"
+string(6) "string"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-07"
+string(6) "string"
+string(10) "is_integer"
+string(1) "1"
+string(6) "string"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+string(6) "100.00"
+string(6) "string"
+string(9) "is_string"
+string(3) "USD"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-10"
+string(6) "string"
+string(10) "is_integer"
+string(1) "1"
+string(6) "string"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+string(6) "100.00"
+string(6) "string"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-10"
+string(6) "string"
+string(10) "is_integer"
+string(1) "2"
+string(6) "string"
+string(9) "is_string"
+string(9) "juridical"
+string(6) "string"
+string(9) "is_string"
+string(7) "cash_in"
+string(6) "string"
+string(8) "is_float"
+string(10) "1000000.00"
+string(6) "string"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-01-10"
+string(6) "string"
+string(10) "is_integer"
+string(1) "3"
+string(6) "string"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+string(7) "1000.00"
+string(6) "string"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+string(9) "is_string"
+string(10) "2016-02-15"
+string(6) "string"
+string(10) "is_integer"
+string(1) "1"
+string(6) "string"
+string(9) "is_string"
+string(7) "natural"
+string(6) "string"
+string(9) "is_string"
+string(8) "cash_out"
+string(6) "string"
+string(8) "is_float"
+string(6) "300.00"
+string(6) "string"
+string(9) "is_string"
+string(3) "EUR"
+string(6) "string"
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,jj.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EURPHP Warning:  Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+
+Warning: Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+PHP Warning:  Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+
+Warning: Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+PHP Warning:  Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+
+Warning: Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+PHP Warning:  Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+
+Warning: Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+PHP Warning:  Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+
+Warning: Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+PHP Warning:  Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+
+Warning: Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+PHP Warning:  Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+
+Warning: Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+PHP Warning:  Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+
+Warning: Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+PHP Warning:  Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+
+Warning: Invalid argument supplied for foreach() in /home/vagrant/Code/Paysera-test/src/Data.php on line 61
+
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,jj.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,jj.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,jj.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EURstring(10) "2016-01-05"
+bool(true)
+int(1)
+bool(true)
+string(7) "natural"
+bool(true)
+string(7) "cash_in"
+bool(true)
+float(0)
+bool(true)
+string(10) "2016-01-06"
+bool(true)
+int(2)
+bool(true)
+string(9) "juridical"
+bool(true)
+string(8) "cash_out"
+bool(true)
+float(300)
+bool(true)
+string(3) "EUR"
+bool(true)
+string(10) "2016-01-06"
+bool(true)
+int(1)
+bool(true)
+string(7) "natural"
+bool(true)
+string(8) "cash_out"
+bool(true)
+float(30000)
+bool(true)
+string(3) "JPY"
+bool(true)
+string(10) "2016-01-07"
+bool(true)
+int(1)
+bool(true)
+string(7) "natural"
+bool(true)
+string(8) "cash_out"
+bool(true)
+float(1000)
+bool(true)
+string(3) "EUR"
+bool(true)
+string(10) "2016-01-07"
+bool(true)
+int(1)
+bool(true)
+string(7) "natural"
+bool(true)
+string(8) "cash_out"
+bool(true)
+float(100)
+bool(true)
+string(3) "USD"
+bool(true)
+string(10) "2016-01-10"
+bool(true)
+int(1)
+bool(true)
+string(7) "natural"
+bool(true)
+string(8) "cash_out"
+bool(true)
+float(100)
+bool(true)
+string(3) "EUR"
+bool(true)
+string(10) "2016-01-10"
+bool(true)
+int(2)
+bool(true)
+string(9) "juridical"
+bool(true)
+string(7) "cash_in"
+bool(true)
+float(1000000)
+bool(true)
+string(3) "EUR"
+bool(true)
+string(10) "2016-01-10"
+bool(true)
+int(3)
+bool(true)
+string(7) "natural"
+bool(true)
+string(8) "cash_out"
+bool(true)
+float(1000)
+bool(true)
+string(3) "EUR"
+bool(true)
+string(10) "2016-02-15"
+bool(true)
+int(1)
+bool(true)
+string(7) "natural"
+bool(true)
+string(8) "cash_out"
+bool(true)
+float(300)
+bool(true)
+string(3) "EUR"
+bool(true)
+
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,jj.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EURstring(10) "2016-01-05"
+string(10) "2016-01-05"
+string(1) "1"
+int(1)
+string(7) "natural"
+string(7) "natural"
+string(7) "cash_in"
+string(7) "cash_in"
+string(5) "jj.00"
+float(0)
+string(3) "EUR"
+string(3) "EUR"
+string(10) "2016-01-06"
+string(10) "2016-01-06"
+string(1) "2"
+int(2)
+string(9) "juridical"
+string(9) "juridical"
+string(8) "cash_out"
+string(8) "cash_out"
+string(6) "300.00"
+float(300)
+string(3) "EUR"
+string(3) "EUR"
+string(10) "2016-01-06"
+string(10) "2016-01-06"
+string(1) "1"
+int(1)
+string(7) "natural"
+string(7) "natural"
+string(8) "cash_out"
+string(8) "cash_out"
+string(5) "30000"
+float(30000)
+string(3) "JPY"
+string(3) "JPY"
+string(10) "2016-01-07"
+string(10) "2016-01-07"
+string(1) "1"
+int(1)
+string(7) "natural"
+string(7) "natural"
+string(8) "cash_out"
+string(8) "cash_out"
+string(7) "1000.00"
+float(1000)
+string(3) "EUR"
+string(3) "EUR"
+string(10) "2016-01-07"
+string(10) "2016-01-07"
+string(1) "1"
+int(1)
+string(7) "natural"
+string(7) "natural"
+string(8) "cash_out"
+string(8) "cash_out"
+string(6) "100.00"
+float(100)
+string(3) "USD"
+string(3) "USD"
+string(10) "2016-01-10"
+string(10) "2016-01-10"
+string(1) "1"
+int(1)
+string(7) "natural"
+string(7) "natural"
+string(8) "cash_out"
+string(8) "cash_out"
+string(6) "100.00"
+float(100)
+string(3) "EUR"
+string(3) "EUR"
+string(10) "2016-01-10"
+string(10) "2016-01-10"
+string(1) "2"
+int(2)
+string(9) "juridical"
+string(9) "juridical"
+string(7) "cash_in"
+string(7) "cash_in"
+string(10) "1000000.00"
+float(1000000)
+string(3) "EUR"
+string(3) "EUR"
+string(10) "2016-01-10"
+string(10) "2016-01-10"
+string(1) "3"
+int(3)
+string(7) "natural"
+string(7) "natural"
+string(8) "cash_out"
+string(8) "cash_out"
+string(7) "1000.00"
+float(1000)
+string(3) "EUR"
+string(3) "EUR"
+string(10) "2016-02-15"
+string(10) "2016-02-15"
+string(1) "1"
+int(1)
+string(7) "natural"
+string(7) "natural"
+string(8) "cash_out"
+string(8) "cash_out"
+string(6) "300.00"
+float(300)
+string(3) "EUR"
+string(3) "EUR"
+
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,jj.00,EUR
+2016-01-06,2,juridical,cash_out,300.00,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000.00,EUR
+2016-01-07,1,natural,cash_out,100.00,USD
+2016-01-10,1,natural,cash_out,100.00,EUR
+2016-01-10,2,juridical,cash_in,1000000.00,EUR
+2016-01-10,3,natural,cash_out,1000.00,EUR
+2016-02-15,1,natural,cash_out,300.00,EUR2016-01-05,1,natural,cash_in,0,EUR
+2016-01-06,2,juridical,cash_out,300,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000,EUR
+2016-01-07,1,natural,cash_out,100,USD
+2016-01-10,1,natural,cash_out,100,EUR
+2016-01-10,2,juridical,cash_in,1000000,EUR
+2016-01-10,3,natural,cash_out,1000,EUR
+2016-02-15,1,natural,cash_out,300,EUR
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,0,EUR
+2016-01-06,2,juridical,cash_out,300,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000,EUR
+2016-01-07,1,natural,cash_out,100,USD
+2016-01-10,1,natural,cash_out,100,EUR
+2016-01-10,2,juridical,cash_in,1000000,EUR
+2016-01-10,3,natural,cash_out,1000,EUR
+2016-02-15,1,natural,cash_out,300,EUR
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,0,EUR
+2016-01-06,2,juridical,cash_out,300,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000,EUR
+2016-01-07,1,natural,cash_out,100,USD
+2016-01-10,1,natural,cash_out,100,EUR
+2016-01-10,2,juridical,cash_in,1000000,EUR
+2016-01-10,3,natural,cash_out,1000,EUR
+2016-02-15,1,natural,cash_out,300,EUR
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv[5Pcd ../Paysera-test/php script.php input.csv
+
+2016-01-05,1,natural,cash_in,0,EUR
+2016-01-06,2,juridical,cash_out,300,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000,EUR
+2016-01-07,1,natural,cash_out,100,USD
+2016-01-10,1,natural,cash_out,100,EUR
+2016-01-10,2,juridical,cash_in,1000000,EUR
+2016-01-10,3,natural,cash_out,1000,EUR
+2016-02-15,1,natural,cash_out,300,EUR
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,0,EUR
+2016-01-06,2,juridical,cash_out,300,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000,EUR
+2016-01-07,1,natural,cash_out,100,USD
+2016-01-10,1,natural,cash_out,100,EUR
+2016-01-10,2,juridical,cash_in,1000000,EUR
+2016-01-10,3,natural,cash_out,1000,EUR
+2016-02-15,1,natural,cash_out,300,EUR
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-05,1,natural,cash_in,0,EUR
+2016-01-06,2,juridical,cash_out,300,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000,EUR
+2016-01-07,1,natural,cash_out,100,USD
+2016-01-10,1,natural,cash_out,100,EUR
+2016-01-10,2,juridical,cash_in,1000000,EUR
+2016-01-10,3,natural,cash_out,1000,EUR
+2016-02-15,1,natural,cash_out,300,EUR
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+string(10) "2016-01-05"
+string(10) "2016-01-05"
+bool(false)
+string(1) "1"
+int(1)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(7) "cash_in"
+string(7) "cash_in"
+bool(false)
+string(5) "jj.00"
+float(0)
+bool(false)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-01-05,1,natural,cash_in,0,EUR
+string(10) "2016-01-06"
+string(10) "2016-01-06"
+bool(false)
+string(1) "2"
+int(2)
+bool(false)
+string(9) "juridical"
+string(9) "juridical"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(6) "300.00"
+float(300)
+bool(false)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-01-06,2,juridical,cash_out,300,EUR
+string(10) "2016-01-06"
+string(10) "2016-01-06"
+bool(false)
+string(1) "1"
+int(1)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(5) "30000"
+float(30000)
+bool(false)
+string(3) "JPY"
+string(3) "JPY"
+bool(false)
+2016-01-06,1,natural,cash_out,30000,JPY
+string(10) "2016-01-07"
+string(10) "2016-01-07"
+bool(false)
+string(1) "1"
+int(1)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(7) "1000.00"
+float(1000)
+bool(false)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-01-07,1,natural,cash_out,1000,EUR
+string(10) "2016-01-07"
+string(10) "2016-01-07"
+bool(false)
+string(1) "1"
+int(1)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(6) "100.00"
+float(100)
+bool(false)
+string(3) "USD"
+string(3) "USD"
+bool(false)
+2016-01-07,1,natural,cash_out,100,USD
+string(10) "2016-01-10"
+string(10) "2016-01-10"
+bool(false)
+string(1) "1"
+int(1)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(6) "100.00"
+float(100)
+bool(false)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-01-10,1,natural,cash_out,100,EUR
+string(10) "2016-01-10"
+string(10) "2016-01-10"
+bool(false)
+string(1) "2"
+int(2)
+bool(false)
+string(9) "juridical"
+string(9) "juridical"
+bool(false)
+string(7) "cash_in"
+string(7) "cash_in"
+bool(false)
+string(10) "1000000.00"
+float(1000000)
+bool(false)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-01-10,2,juridical,cash_in,1000000,EUR
+string(10) "2016-01-10"
+string(10) "2016-01-10"
+bool(false)
+string(1) "3"
+int(3)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(7) "1000.00"
+float(1000)
+bool(false)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-01-10,3,natural,cash_out,1000,EUR
+string(10) "2016-02-15"
+string(10) "2016-02-15"
+bool(false)
+string(1) "1"
+int(1)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(6) "300.00"
+float(300)
+bool(false)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-02-15,1,natural,cash_out,300,EUR
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+string(10) "2016-01-05"
+string(10) "2016-01-05"
+bool(false)
+string(1) "1"
+int(1)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(7) "cash_in"
+string(7) "cash_in"
+bool(false)
+string(5) "jj.00"
+float(0)
+bool(true)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-01-05,1,natural,cash_in,0,EUR
+string(10) "2016-01-06"
+string(10) "2016-01-06"
+bool(false)
+string(1) "2"
+int(2)
+bool(false)
+string(9) "juridical"
+string(9) "juridical"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(6) "300.00"
+float(300)
+bool(false)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-01-06,2,juridical,cash_out,300,EUR
+string(10) "2016-01-06"
+string(10) "2016-01-06"
+bool(false)
+string(1) "1"
+int(1)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(5) "30000"
+float(30000)
+bool(false)
+string(3) "JPY"
+string(3) "JPY"
+bool(false)
+2016-01-06,1,natural,cash_out,30000,JPY
+string(10) "2016-01-07"
+string(10) "2016-01-07"
+bool(false)
+string(1) "1"
+int(1)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(7) "1000.00"
+float(1000)
+bool(false)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-01-07,1,natural,cash_out,1000,EUR
+string(10) "2016-01-07"
+string(10) "2016-01-07"
+bool(false)
+string(1) "1"
+int(1)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(6) "100.00"
+float(100)
+bool(false)
+string(3) "USD"
+string(3) "USD"
+bool(false)
+2016-01-07,1,natural,cash_out,100,USD
+string(10) "2016-01-10"
+string(10) "2016-01-10"
+bool(false)
+string(1) "1"
+int(1)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(6) "100.00"
+float(100)
+bool(false)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-01-10,1,natural,cash_out,100,EUR
+string(10) "2016-01-10"
+string(10) "2016-01-10"
+bool(false)
+string(1) "2"
+int(2)
+bool(false)
+string(9) "juridical"
+string(9) "juridical"
+bool(false)
+string(7) "cash_in"
+string(7) "cash_in"
+bool(false)
+string(10) "1000000.00"
+float(1000000)
+bool(false)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-01-10,2,juridical,cash_in,1000000,EUR
+string(10) "2016-01-10"
+string(10) "2016-01-10"
+bool(false)
+string(1) "3"
+int(3)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(7) "1000.00"
+float(1000)
+bool(false)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-01-10,3,natural,cash_out,1000,EUR
+string(10) "2016-02-15"
+string(10) "2016-02-15"
+bool(false)
+string(1) "1"
+int(1)
+bool(false)
+string(7) "natural"
+string(7) "natural"
+bool(false)
+string(8) "cash_out"
+string(8) "cash_out"
+bool(false)
+string(6) "300.00"
+float(300)
+bool(false)
+string(3) "EUR"
+string(3) "EUR"
+bool(false)
+2016-02-15,1,natural,cash_out,300,EUR
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+string(10) "2016-01-05"
+bool(false)
+string(10) "2016-01-05"
+string(1) "1"
+bool(false)
+int(1)
+string(7) "natural"
+bool(false)
+string(7) "natural"
+string(7) "cash_in"
+bool(false)
+string(7) "cash_in"
+string(5) "jj.00"
+bool(true)
+float(0)
+string(3) "EUR"
+bool(false)
+string(3) "EUR"
+2016-01-05,1,natural,cash_in,0,EUR
+string(10) "2016-01-06"
+bool(false)
+string(10) "2016-01-06"
+string(1) "2"
+bool(false)
+int(2)
+string(9) "juridical"
+bool(false)
+string(9) "juridical"
+string(8) "cash_out"
+bool(false)
+string(8) "cash_out"
+string(6) "300.00"
+bool(false)
+float(300)
+string(3) "EUR"
+bool(false)
+string(3) "EUR"
+2016-01-06,2,juridical,cash_out,300,EUR
+string(10) "2016-01-06"
+bool(false)
+string(10) "2016-01-06"
+string(1) "1"
+bool(false)
+int(1)
+string(7) "natural"
+bool(false)
+string(7) "natural"
+string(8) "cash_out"
+bool(false)
+string(8) "cash_out"
+string(5) "30000"
+bool(false)
+float(30000)
+string(3) "JPY"
+bool(false)
+string(3) "JPY"
+2016-01-06,1,natural,cash_out,30000,JPY
+string(10) "2016-01-07"
+bool(false)
+string(10) "2016-01-07"
+string(1) "1"
+bool(false)
+int(1)
+string(7) "natural"
+bool(false)
+string(7) "natural"
+string(8) "cash_out"
+bool(false)
+string(8) "cash_out"
+string(7) "1000.00"
+bool(false)
+float(1000)
+string(3) "EUR"
+bool(false)
+string(3) "EUR"
+2016-01-07,1,natural,cash_out,1000,EUR
+string(10) "2016-01-07"
+bool(false)
+string(10) "2016-01-07"
+string(1) "1"
+bool(false)
+int(1)
+string(7) "natural"
+bool(false)
+string(7) "natural"
+string(8) "cash_out"
+bool(false)
+string(8) "cash_out"
+string(6) "100.00"
+bool(false)
+float(100)
+string(3) "USD"
+bool(false)
+string(3) "USD"
+2016-01-07,1,natural,cash_out,100,USD
+string(10) "2016-01-10"
+bool(false)
+string(10) "2016-01-10"
+string(1) "1"
+bool(false)
+int(1)
+string(7) "natural"
+bool(false)
+string(7) "natural"
+string(8) "cash_out"
+bool(false)
+string(8) "cash_out"
+string(6) "100.00"
+bool(false)
+float(100)
+string(3) "EUR"
+bool(false)
+string(3) "EUR"
+2016-01-10,1,natural,cash_out,100,EUR
+string(10) "2016-01-10"
+bool(false)
+string(10) "2016-01-10"
+string(1) "2"
+bool(false)
+int(2)
+string(9) "juridical"
+bool(false)
+string(9) "juridical"
+string(7) "cash_in"
+bool(false)
+string(7) "cash_in"
+string(10) "1000000.00"
+bool(false)
+float(1000000)
+string(3) "EUR"
+bool(false)
+string(3) "EUR"
+2016-01-10,2,juridical,cash_in,1000000,EUR
+string(10) "2016-01-10"
+bool(false)
+string(10) "2016-01-10"
+string(1) "3"
+bool(false)
+int(3)
+string(7) "natural"
+bool(false)
+string(7) "natural"
+string(8) "cash_out"
+bool(false)
+string(8) "cash_out"
+string(7) "1000.00"
+bool(false)
+float(1000)
+string(3) "EUR"
+bool(false)
+string(3) "EUR"
+2016-01-10,3,natural,cash_out,1000,EUR
+string(10) "2016-02-15"
+bool(false)
+string(10) "2016-02-15"
+string(1) "1"
+bool(false)
+int(1)
+string(7) "natural"
+bool(false)
+string(7) "natural"
+string(8) "cash_out"
+bool(false)
+string(8) "cash_out"
+string(6) "300.00"
+bool(false)
+float(300)
+string(3) "EUR"
+bool(false)
+string(3) "EUR"
+2016-02-15,1,natural,cash_out,300,EUR
+
+0.00
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+2016-01-06,2,juridical,cash_out,300,EUR
+2016-01-06,1,natural,cash_out,30000,JPY
+2016-01-07,1,natural,cash_out,1000,EUR
+2016-01-07,1,natural,cash_out,100,USD
+2016-01-10,1,natural,cash_out,100,EUR
+2016-01-10,2,juridical,cash_in,1000000,EUR
+2016-01-10,3,natural,cash_out,1000,EUR
+2016-02-15,1,natural,cash_out,300,EUR
+
+0.90
+0.00
+0.70
+0.30
+0.30
+5.00
+0.00
+0.00
+]0;vagrant@homestead: ~/Code/Paysera-testvagrant@homestead:~/Code/Paysera-test$ php script.php input.csv
+
+PHP Fatal error:  Uncaught Error: Class 'App\InvalidArgumentExce
