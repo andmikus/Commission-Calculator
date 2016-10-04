@@ -2,7 +2,7 @@
 Calculate commission fees for given cash in/out transactions.
 
 Usage example:
-\n
+
 ```
 ➜  cat input.csv 
 2016-01-05,1,natural,cash_in,200.00,EUR
